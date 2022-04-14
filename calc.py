@@ -1,9 +1,5 @@
-from re import A
-from this import d
-
-
-a = int(input())
-b = int(input())
+a = float(input())
+b = float(input())
 
 
 c = a*b

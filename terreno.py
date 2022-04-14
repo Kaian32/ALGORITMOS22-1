@@ -1,5 +1,5 @@
-lar = int(input("Qual a largura de seu terreno? "))
-comp = int(input("Qual o comprimento de seu terreno? "))
+lar = float(input("Qual a largura de seu terreno? "))
+comp = float(input("Qual o comprimento de seu terreno? "))
 
 area = lar*comp
 

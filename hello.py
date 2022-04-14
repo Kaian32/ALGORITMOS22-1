@@ -7,7 +7,7 @@ print("segunda linha muito braba")
 
 # cálculos e armazenamento dos valores
 x = 3
-y = int(input("Informe o valor de y: "))
+y = float(input("Informe o valor de y: "))
 z = x + y
 w = z*1000
 

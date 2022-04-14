@@ -1,6 +1,6 @@
-sbase = int(input("Por favor, insira seu salário base: "))
-grat = int(sbase*0.05)
-imp = int(sbase*0.07)
+sbase = float(input("Por favor, insira seu salário base: "))
+grat = float(sbase*0.05)
+imp = float(sbase*0.07)
 
 salario = sbase+grat-imp
 

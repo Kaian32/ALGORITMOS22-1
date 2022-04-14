@@ -1,4 +1,4 @@
-pe = int(input("Por favor, insira o valor em pés:"))
+pe = float(input("Por favor, insira o valor em pés:"))
 pol = pe*12
 jar = pe/3
 mil = jar/1760
