@@ -1,6 +1,7 @@
 sexo = int(input("Informe seu sexo: 1 para Feminino, 2 para Masculino ou 3 para Não Informar\n"))
 if sexo == 3:
     print("FIm do Algoritmo.")
+    exit()
 else:
     altura = float(input("Qual a sua altura em metros?\n"))
 

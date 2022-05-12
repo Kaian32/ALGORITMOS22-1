@@ -2,7 +2,7 @@ adulto = int(input("Você tem mais de 18 anos? 0 para não e 1 para sim\n"))
 
 if adulto == 0:
     print("Fim do Algoritmo.")
-    
+    exit()
 
 peso = float(input("Qual seu peso em quilos?\n"))
 altura = float(input("Qual sua altura em metros?\n"))
