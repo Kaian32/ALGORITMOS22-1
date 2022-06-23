@@ -4,17 +4,17 @@ a2 = 0
 maior = 0
 menor = 0
 
-while cont<1:
+for cont in range(1):
     a2 = int(input("Insira um valor inteiro: "))
     menor = a2
-    cont+=1
+    
 
-while cont<10:
+for cont in range(10):
     a2 = int(input("Insira um valor inteiro: "))
     if a2 > menor:
-        maior = a2
-    else:
+        if a2 > maior:
+            maior = a2
+    elif a2 < menor:
         menor = a2
-    cont+=1
-
+    
 print ("O maior número é:",maior,"\nO menor número é:", menor)
